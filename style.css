@@ -4,18 +4,23 @@ body {
     background-size: cover;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    background-position: center;
   }
   
   /* Calculator container */
   .calculator {
-    width: 250px;
+    width: 350px;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 3rem 2.5rem;
     border: 1px solid #ccc;
     border-radius: 10px;
     background-color: hsl(0, 0%, 20%);
-    margin-top: 10rem;
+    position: relative;
+    top: 6.5rem;
+    box-shadow: 4px 4px 8px #333;
+    
+
+
   }
   
   /* Calculator display input */
@@ -61,8 +66,8 @@ body {
   /* For screens up to 1024px */
   @media (max-width: 1024px) {
     .calculator {
-      width: 220px;
-      padding: 1.5rem;
+      width: 250px;
+      padding: 2rem 1.5rem;
       margin-top: 8rem;
     }
     .calculator input {
@@ -78,8 +83,8 @@ body {
   /* For screens up to 768px */
   @media (max-width: 768px) {
     .calculator {
-      width: 200px;
-      padding: 1.2rem;
+      width: 250px;
+      padding: 1.5rem 1.2rem;
       margin-top: 6rem;
     }
     .calculator input {
@@ -95,8 +100,8 @@ body {
   /* For screens up to 425px */
   @media (max-width: 425px) {
     .calculator {
-      width: 180px;
-      padding: 1rem;
+      width: 200px;
+      padding: 1.5rem 1rem;
       margin-top: 5rem;
     }
     .calculator input {
@@ -112,8 +117,8 @@ body {
   /* For screens up to 375px */
   @media (max-width: 375px) {
     .calculator {
-      width: 160px;
-      padding: 0.8rem;
+      width: 200px;
+      padding: 1.5rem 1rem;
       margin-top: 4rem;
     }
     .calculator input {
@@ -129,8 +134,8 @@ body {
   /* For screens up to 320px */
   @media (max-width: 320px) {
     .calculator {
-      width: 140px;
-      padding: 0.6rem;
+      width: 180px;
+      padding: 1.5rem 1rem;
       margin-top: 3rem;
     }
     .calculator input {

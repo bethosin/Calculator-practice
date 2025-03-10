@@ -8,8 +8,9 @@ body {
     height: 100vh;
     background-position: center;
   }
-  
+
   /* Calculator container */
+  
   .calculator {
     width: 350px;
     margin: 0 auto;
@@ -20,9 +21,7 @@ body {
     position: relative;
     top: 6.5rem;
     box-shadow: 4px 4px 8px #333;
-    
-
-
+  
   }
   
   /* Calculator display input */
